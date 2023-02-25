@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EncurtaURL</name>
+    </assembly>
+    <members>
+        <member name="M:EncurtaURL.Controllers.ShortenedLinksController.Add(EncurtaURL.Models.AddOrUpdateShortenedLinkModel)">
+            <summary>
+            Cadastrar um link encurtado
+            </summary>
+            <remarks>
+            {"title": "meu-github", "destinationLink": "https://github.com/pablorangell"}
+            </remarks>
+            <param name="model">Dados de link</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Sucesso</response>
+        </member>
+        <member name="T:EncurtaURL.Persistence.Migrations.MigrationEncurtaUrl">
+            <inheritdoc />
+        </member>
+        <member name="M:EncurtaURL.Persistence.Migrations.MigrationEncurtaUrl.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EncurtaURL.Persistence.Migrations.MigrationEncurtaUrl.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EncurtaURL.Persistence.Migrations.MigrationEncurtaUrl.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
